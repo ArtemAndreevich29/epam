@@ -1,0 +1,10 @@
+<p>chips-component</p>
+<div class="chips-container">
+  <span *ngFor="let chip of chips.split(',')"
+        class="chip"
+        [class.editable]="isEditable"
+        [class.active]="isActive"
+        (click)="onChipClick(chip)">
+    {{ chip }}
+  </span>
+</div>

@@ -1,0 +1,21 @@
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chip {
+  padding: 8px;
+  margin: 4px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.chip.editable {
+  background-color: #90caf9;
+}
+
+.chip.active {
+  background-color: #4caf50;
+  color: #ffffff;
+}
